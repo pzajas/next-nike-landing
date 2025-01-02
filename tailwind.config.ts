@@ -4,15 +4,19 @@ export default {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}'
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
     extend: {
       colors: {
         background: 'var(--background)',
-        foreground: 'var(--foreground)'
+        foreground: 'var(--foreground)',
+
+        orange: '#ff6452'
       }
     }
   },
+
   plugins: []
 } satisfies Config
