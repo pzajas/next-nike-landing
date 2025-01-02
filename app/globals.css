@@ -14,6 +14,12 @@
   }
 }
 
+@layer utilities {
+  .interactive-link {
+    @apply text-xl hover:text-orange cursor-pointer hover:border-b-2 hover:border-orange border-transparent px-2 py-1;
+  }
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
